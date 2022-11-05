@@ -1,5 +1,5 @@
 # Autoencoder-project-CNR-
-File contenenti i workflow di Knime della rete di denoising 
+
 ## Project autoencoder for periodic signals
 
 # Knime Workflow
