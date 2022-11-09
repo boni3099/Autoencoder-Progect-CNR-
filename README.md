@@ -1,4 +1,4 @@
-# Autoencoder-project-CNR-
+# Knime-Autoencoder-project-CNR
 
 # Istruzioni per utilizzare i file Knime
 
