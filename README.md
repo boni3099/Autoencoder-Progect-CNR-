@@ -59,11 +59,11 @@ SEVENTH CASE: (Ho riallenato la rete una 3a volta con il valore medio della pote
 
 ![](./images/Result_7.svg)
 
-#PARTICOLARI 2o e 3o ALLENAMENTO
-Ho tenuto sempre lo stesso numero di epoche (100).
-La LOSS tende a 0 in tutti i e 2 gli allenamenti in modo non tanto differente dalla prima volta.
-Il tempo impiegato è sempre 3 minuti. 
-Ho salvato queste altre 2 reti in formato tensorflow invece che nel formato keras notando che nel test la loro lettura dall'executor è molto più veloce.
+# PARTICOLARI 2o e 3o ALLENAMENTO
+- Ho tenuto sempre lo stesso numero di epoche (100).
+- La LOSS tende a 0 in tutti i e 2 gli allenamenti in modo non tanto differente dalla prima volta.
+- Il tempo impiegato è sempre 3 minuti. 
+- Ho salvato queste altre 2 reti in formato tensorflow invece che nel formato keras notando che nel test la loro lettura dall'executor è molto più veloce.
 
 
 
