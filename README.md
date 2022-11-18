@@ -43,6 +43,8 @@ THIRD CASE:
 
 ![](./images/Result_3.svg)
 
+# TEST THE LIMIT OF THE NETWORK 
+
 FOURTH CASE: (Ho provato a togliere la tecnica SNR e fare 2 rumori casuali con distribuzione gaussiana a devianza fissa a 10 con un range da –5 a 5 riallenando la macchina con un nuovo tipo di rumore e tenendo il segnale target tra 0 e 1 e osservando che la loss tende a 0 )
 
 ![](./images/Result_4.svg)
@@ -51,7 +53,7 @@ FIFTH CASE: (Ho provato a fare come prima ma copiando nel test noise lo stesso s
 
 ![](./images/Result_5.svg)
 
-SIXTH CASE: (Ho Provato a rimettere la teoria SNR ma moltiplicando per 100 il valore medio del rumore risultante dalle operazioni (solo per il test), testando, però, la prima rete che avevo allenato con valori normali di rumore (senza il X100)) 
+SIXTH CASE: (Ho Provato a rimettere la teoria SNR ma moltiplicando per 100 il valore medio del rumore risultante dalle operazioni (solo per il test), testando, però, la prima rete che avevo allenato con valori normali di rumore (senza il X100), Il range di valori del rumore è imposto tra -5 e 5) 
 
 ![](./images/Result_6.svg)
 
