@@ -23,7 +23,7 @@
 
 ![](./images/Result_0.svg)
 
-## Project autoencoder for EEG signals
+## Project autoencoder for pulse signal from python's NEURON library
 
 # Knime Workflow
 
