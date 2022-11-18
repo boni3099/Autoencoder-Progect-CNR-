@@ -43,5 +43,27 @@ THIRD CASE:
 
 ![](./images/Result_3.svg)
 
+FOURTH CASE: (Ho provato a togliere la tecnica SNR e fare 2 rumori casuali con distribuzione gaussiana a devianza fissa a 10 con un range da –5 a 5 riallenando la macchina con un nuovo tipo di rumore e tenendo il segnale target tra 0 e 1 e osservando che la loss tende a 0 )
+
+![](./images/Result_4.svg)
+
+FIFTH CASE: (Ho provato a fare come prima ma copiando nel test noise lo stesso seed del training)
+
+![](./images/Result_5.svg)
+
+SIXTH CASE: (Ho Provato a rimettere la teoria SNR ma moltiplicando per 100 il valore medio del rumore risultante dalle operazioni (solo per il test), testando, però, la prima rete che avevo allenato con valori normali di rumore (senza il X100)) 
+
+![](./images/Result_6.svg)
+
+SEVENTH CASE: (Ho riallenato la rete una 3a volta con il valore medio della potenza del rumore X100) 
+
+![](./images/Result_7.svg)
+
+#PARTICOLARI 2o e 3o ALLENAMENTO
+Ho tenuto sempre lo stesso numero di epoche (100).
+La LOSS tende a 0 in tutti i e 2 gli allenamenti in modo non tanto differente dalla prima volta.
+Il tempo impiegato è sempre 3 minuti. 
+Ho salvato queste altre 2 reti in formato tensorflow invece che nel formato keras notando che nel test la loro lettura dall'executor è molto più veloce.
+
 
 
