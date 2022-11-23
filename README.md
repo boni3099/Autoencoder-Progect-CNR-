@@ -18,6 +18,8 @@
 - andare su file-preferences-KNIME-python deep learning
 - creare gli enviroment sia di Keras che di Tensorflow2 con il tasto new enviroment in tutti e 2
 - dopo aver fatto ciò sarà possibile utilizzare il learner per allenare la rete
+<img src="./images/enviroment_install.png" width="600">
+
 
 # Project autoencoder for periodic signals
 
