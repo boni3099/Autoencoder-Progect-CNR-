@@ -1,6 +1,6 @@
 # Knime-Autoencoder-project-CNR
 
-# Istruzioni per utilizzare i file Knime
+## Istruzioni per utilizzare i file Knime
 
 - installare knime ( link: https://www.knime.com/downloads )
 - aprire l'applicazione e creare un nuovo workspace dove si preferisce nella memoria del pc, 
@@ -12,24 +12,30 @@
 - Knime vi chiederà quale workspace aprire tramite percorso file, punterà automaticamente all'ultima workspace aperta
 - una volta aperto il file su Knime vi chiederà il programma di installare le estenzioni necessarie a leggere tutti i nodi del progetto, 
   date il consenso a tutte le installazioni. Una volta conclusa l'installazione chiudete e riavviate Knime, ora potete lavorare sul framework liberamente 
+  
+## Istruzioni per usare il Keras learner e allenare la rete 
 
-## Project autoencoder for periodic signals
+- andare su file-preferences-KNIME-python deep learning
+- creare gli enviroment sia di Keras che di Tensorflow2 con il tasto new enviroment in tutti e 2
+- dopo aver fatto ciò sarà possibile utilizzare il learner per allenare la rete
 
-# Knime Workflow
+# Project autoencoder for periodic signals
+
+## Knime Workflow
 
 ![](./images/workflow1.png)
 
-# Result Image
+## Result Image
 
 ![](./images/Result_0.svg)
 
-## Project autoencoder for pulse signal from python's NEURON library
+# Project autoencoder for pulse signal from python's NEURON library
 
-# Knime Workflow
+## Knime Workflow
 
 ![](./images/workflow2.png)
 
-# Result Images
+## Result Images
 
 FIRST CASE:
 
@@ -61,7 +67,7 @@ SEVENTH CASE: (Ho riallenato la rete una 3a volta con il valore medio della pote
 
 ![](./images/Result_7.svg)
 
-# PARTICOLARI 2o e 3o ALLENAMENTO
+## PARTICOLARI 2o e 3o ALLENAMENTO
 - Ho tenuto sempre lo stesso numero di epoche (100).
 - La LOSS tende a 0 in tutti i e 2 gli allenamenti in modo non tanto differente dalla prima volta.
 - Il tempo impiegato è sempre 3 minuti. 
